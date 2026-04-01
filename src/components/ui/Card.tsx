@@ -17,7 +17,7 @@ const Card = ({
       <section className="border border-gray-300 rounded-sm p-2">
         <section className="flex justify-between items-center">
           <Label name={title} className="font-semibold text-gray-800" />
-          <EllipsisVertical />
+          <EllipsisVertical className="cursor-pointer" />
         </section>
         <span>
           <Label name={description} className="text-gray-600" />

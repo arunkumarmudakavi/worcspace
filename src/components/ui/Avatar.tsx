@@ -18,12 +18,12 @@ export default function Avatar({
       src={image}
       alt={firstName + " " + lastName}
       style={{ width: size, height: size }}
-      className="rounded-full object-cover"
+      className="rounded-full object-cover cursor-pointer"
     />
   ) : (
     <div
       style={{ width: size, height: size }}
-      className="rounded-full bg-[var(--secondary-color)] flex items-center justify-center text-white font-light"
+      className="rounded-full bg-[var(--secondary-color)] flex items-center justify-center text-white font-light cursor-pointer"
     >
       {firstName.charAt(0).toUpperCase()}
       {lastName.charAt(0).toUpperCase()}
