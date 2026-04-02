@@ -7,9 +7,9 @@ const HomeLayout = ({ children }: { children: React.ReactNode }) => {
   return (
     <>
       <Navbar />
-      <div className="flex flex-1">
+      <div className="flex min-h-[80vh]">
         <Sidebar />
-        <main>{children}</main>
+        <main className="flex-1 min-w-0 p-2">{children}</main>
       </div>
     </>
   );

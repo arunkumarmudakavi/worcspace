@@ -106,7 +106,7 @@ const Sidebar = () => {
 
   return (
     <>
-      <section className="m-5 w-[30vw]">
+      <section className="ml-5 w-64 min-w-[16rem] pr-2 flex-shrink-0 border-r border-gray-200">
         {sidebarItems.map((section) => (
           <section key={section.name}>
             <h3 className="text-gray-400 text-sm mt-1.5">{section.name}</h3>
